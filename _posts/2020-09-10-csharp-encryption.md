@@ -22,7 +22,7 @@ tags:
 우리가 사용할 알고리즘이 AES이라는 알고리즘인데, AES 알고리즘은 암호화 작업을 수행할 때 키와 초기화 벡터라는 값을 요구한다. 그래서 키와 초기화 벡터를 생성하는 메소드를 미리 만들 것이다.
 
 키 생성 메소드
-~~~C#
+~~~cs
 public static Rfc2898DeriveBytes CreateKey(string password) {
     byte[] keyBytes = Encoding.UTF8.GetBytes(password);         //키값 생성
     byte[] saltBytes = SHA512.Create().ComputeHash(keyBytes);   //솔트값(원본 키값을 알지 어렵게 하는 값)
@@ -35,7 +35,7 @@ public static Rfc2898DeriveBytes CreateKey(string password) {
 
 초기화 벡터 생성 메소드
 
-~~~C#
+~~~cs
 public static Rfc2898DeriveBytes CreateVector(string vector) {
     byte[] vectorBytes = Encoding.UTF8.GetBytes(vector);        //벡터 생성
     byte[] saltBytes = SHA512.Create().ComputeHash(vectorBytes);   //솔트값(원본 벡터를 알지 어렵게 하는 값)
@@ -52,7 +52,7 @@ public static Rfc2898DeriveBytes CreateVector(string vector) {
 
 이 예제에서는 AES-256으로 암호화를 진행한다.
 
-~~~C#
+~~~cs
 public static byte[] Encrypt(byte[] origin, string password) {
     RijndaelManaged aes = new RijndaelManaged();       //AES 알고리즘
     Rfc2898DeriveBytes key = CreateKey(password);            //키값 생성
@@ -87,7 +87,7 @@ public static byte[] Encrypt(byte[] origin, string password) {
 
 마찬가지로 AES-256으로 복호화를 진행한다.
 
-~~~C#
+~~~cs
 public static byte[] Decrypt(byte[] origin, string password) {
     RijndaelManaged aes = new RijndaelManaged();       //AES 알고리즘
     Rfc2898DeriveBytes key = CreateKey(password);            //키값 생성
