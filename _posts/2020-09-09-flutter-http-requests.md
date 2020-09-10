@@ -10,7 +10,7 @@ tags:
   - 비동기
 ---
 
-Flutter에서는 비동기 작업을 Future와 await 키워드로 할 수 있다.
+Flutter에서는 HTTP 요청에 필요한 비동기 작업을 Future와 await 키워드로 할 수 있다.
 
 ## Future의 역할
 
