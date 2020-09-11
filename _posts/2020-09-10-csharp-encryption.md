@@ -25,7 +25,7 @@ tags:
 ~~~cs
 public static Rfc2898DeriveBytes CreateKey(string password) {
     byte[] keyBytes = Encoding.UTF8.GetBytes(password);         //키값 생성
-    byte[] saltBytes = SHA512.Create().ComputeHash(keyBytes);   //솔트값(원본 키값을 알지 어렵게 하는 값)
+    byte[] saltBytes = SHA512.Create().ComputeHash(keyBytes);   //솔트값(원본 키값을 알기 어렵게 하는 값)
 
     Rfc2898DeriveBytes result = new Rfc2898DeriveBytes(keyBytes, saltBytes, 100000);    //키값에 솔트값을 사용해 새로운 키 생성, 마지막에 들어가는 수는 해시 생성의 반복 횟수이다.
 
@@ -38,7 +38,7 @@ public static Rfc2898DeriveBytes CreateKey(string password) {
 ~~~cs
 public static Rfc2898DeriveBytes CreateVector(string vector) {
     byte[] vectorBytes = Encoding.UTF8.GetBytes(vector);        //벡터 생성
-    byte[] saltBytes = SHA512.Create().ComputeHash(vectorBytes);   //솔트값(원본 벡터를 알지 어렵게 하는 값)
+    byte[] saltBytes = SHA512.Create().ComputeHash(vectorBytes);   //솔트값(원본 벡터를 알기 어렵게 하는 값)
 
     Rfc2898DeriveBytes result = new Rfc2898DeriveBytes(vectorBytes, saltBytes, 100000);    //벡터에 솔트값을 사용해 새로운 키 생성, 마지막에 들어가는 수는 해시 생성의 반복 횟수이다.
 
