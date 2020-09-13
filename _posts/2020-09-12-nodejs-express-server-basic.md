@@ -6,7 +6,6 @@ classes: wide
 category: Node.js
 tags: 
   - node.js
-  - socket.io
   - express
 ---
 
