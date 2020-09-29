@@ -62,22 +62,22 @@ namespace DiscordBot
 +               await Context.Channel.SendMessageAsync("영상의 링크를 제공해주세요.");
 +               return;
 +           }
-
++
 +           if (Context.Guild.CurrentUser.VoiceChannel == null) //사용자가 음성 채널에 들어가지 않은 경우
 +           {
 +               await Context.Channel.SendMessageAsync("음악을 재생하려면 음성 채널에 있어야 합니다.");
 +               return;
 +           }
-
++
 +           await Context.Channel.SendMessageAsync("영상 다운로드 시작");
-
++
 +           YouTube yt = YouTube.Default;   //VideoLibrary의 유튜브 인스턴스 초기화
 +           YouTubeVideo video = await yt.GetVideoAsync(url);   //링크의 영상을 변수에 저장
-
++
 +           //영상을 저장할 폴더가 없다면 생성
 +           if(!Directory.Exists(Environment.CurrentDirectory + "\\audio\\"))
 +               Directory.CreateDirectory(Environment.CurrentDirectory + "\\audio\\");  
-
++
 +           string videoPath = Environment.CurrentDirectory + "\\audio\\" + video.FullName;
 +           //폴더 속에 영상을 다운로드
 +           await File.WriteAllBytesAsync(videoPath, await video.GetBytesAsync());
@@ -87,7 +87,7 @@ namespace DiscordBot
 }
 ~~~
 
-테스트는 음성 채널에 들어간 상태에서 !play <유튜브 링크> 와 같이 명령어를 입력하면 된다.
+테스트는 음성 채널에 들어간 상태에서 !play (유튜브링크) 와 같이 명령어를 입력하면 된다.
 
 ![download](https://imgur.com/BOsYKSp.png)
 
@@ -104,19 +104,19 @@ namespace DiscordBot
 
             //폴더 속에 영상을 다운로드
             await File.WriteAllBytesAsync(videoPath, await video.GetBytesAsync());
-
++
 +           //FFmpeg 경로 설정
 +           FFmpeg.SetExecutablesPath(Environment.CurrentDirectory);        
 +           await FFmpegDownloader.GetLatestVersion(FFmpegVersion.Official);    //FFmpeg 다운로드
-
++
 +           //영상파일에서 음성파일로 변환
 +           await Conversion.ExtractAudio(
 +               videoPath,
 +               Path.ChangeExtension(videoPath, ".mp3")).Start();
-
++
 +           //영상파일 삭제
 +           File.Delete(videoPath);
-
++
 +           await Context.Channel.SendMessageAsync("음성 추출 완료");
        }
     }
@@ -137,23 +137,23 @@ namespace DiscordBot
 
 ~~~diff
             await Context.Channel.SendMessageAsync("음성 추출 완료");
-
++
 +           //유저가 있는 음성 채널로 연결
 +           audioClient = await ((IGuildUser) Context.User).VoiceChannel.ConnectAsync();
-
++
 +           //음성 파일을 스트림 형태로 읽기
 +           var reader = new Mp3FileReader(Path.ChangeExtension(videoPath, ".mp3"));
 +           var naudio = WaveFormatConversionStream.CreatePcmStream(reader);
-
++
 +           //음성 채널과 연결된 음성 스트림 생성
 +           audioStream = audioClient.CreatePCMStream(AudioApplication.Music);
-            
++            
 +           byte[] buffer = new byte[naudio.Length];    //음성 데이터 버퍼
-
++
 +           int count = (int)(naudio.Length - naudio.Position);  //읽어들일 데이터의 크기
 +           await naudio.ReadAsync(buffer, 0, count);    //음성 파일의 데이터를 버퍼에 저장
 +           await audioStream.WriteAsync(buffer, 0, count);  //버퍼의 데이터를 음성 채널 스트림에 저장
-
++
 +           //스트림 정리
 +           await audioStream.FlushAsync();
 +           await ((IGuildUser) Context.User).VoiceChannel.DisconnectAsync();
@@ -161,7 +161,7 @@ namespace DiscordBot
 +           audioClient.Dispose();
 +           await naudio.DisposeAsync();
 +           await reader.DisposeAsync();
-
++
 +           //음성 파일 삭제
 +           File.Delete(Path.ChangeExtension(videoPath, ".mp3"));
         }
@@ -173,3 +173,4 @@ namespace DiscordBot
 이제 봇을 실행시키고 play 명령어를 사용하면 음성채널에서 영상의 소리를 들을 수 있다.
 
 ![play](https://imgur.com/msBzuPq.png)
+
