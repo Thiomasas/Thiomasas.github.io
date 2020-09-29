@@ -11,6 +11,8 @@ tags:
 
 지금까지는 채팅 채널에서만 봇이 상호작용을 했지만 이번에는 음성 채널과 상호작용하여 음악을 들려주는 기능을 추가해 볼 것이다.
 
+이어지는 포스트입니다. 처음부터 따라하면서 읽으시려면 [여기](https://fred16157.github.io/.net/csharp-discord-bot-basic/) 부터 읽어주세요.
+
 ## 라이브러리 설치
 
 우리는 음악을 유튜브에서 가져올 것이므로 VideoLibrary를 설치해야 하고, 영상을 음악으로 변환하기 위해 Xabe.FFmpeg와 Xabe.FFmpeg.Downloader를, 음성 채널에 재생하기 위해 NAudio를 설치해야 한다. 두 라이브러리 모두 NuGet 패키지 매니저로 설치할 수 있다.
