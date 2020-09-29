@@ -17,6 +17,8 @@ tags:
 
 우리는 음악을 유튜브에서 가져올 것이므로 VideoLibrary를 설치해야 하고, 영상을 음악으로 변환하기 위해 Xabe.FFmpeg와 Xabe.FFmpeg.Downloader를, 음성 채널에 재생하기 위해 NAudio를 설치해야 한다. 두 라이브러리 모두 NuGet 패키지 매니저로 설치할 수 있다.
 
+음성 채널에 음성 스트림을 전송하려면 libsodium과 opus 라이브러리가 필요한데, 이 라이브러리는 직접 다운로드해서 실행파일과 같은 경로에 두어야 한다. [여기](https://discord.foxbot.me/binaries/)에서 다운로드 할 수 있다.
+
 ## 모듈 생성
 
 모듈 클래스를 만드는 방법은 [저번 포스트](https://fred16157.github.io/.net/csharp-discord-bot-command-modules/)에 적혀있다.
@@ -133,9 +135,7 @@ namespace DiscordBot
 
 ## 음성 채널로 재생하기
 
-음성 채널에 음성 스트림을 전송하려면 libsodium과 opus 라이브러리가 필요한데, 이 라이브러리는 직접 다운로드해서 실행파일과 같은 경로에 두어야 한다. [여기](https://discord.foxbot.me/binaries/)에서 다운로드 할 수 있다.
-
-이제 NAudio를 활용해서 코드를 작성해보자.
+음성 변환까지 끝냈으니 NAudio를 활용해서 디스코드 음성 채널에 데이터를 전송하는 코드를 작성해보자.
 
 ~~~diff
             await Context.Channel.SendMessageAsync("음성 추출 완료");
