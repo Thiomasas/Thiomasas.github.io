@@ -57,6 +57,25 @@ Electron 내 html과 css, js는 모두 정적 파일로 취급되기 때문에 �
 
 예를 들어 home.html이라는 html 파일을 하나 만든 다음 index.html의 a 태그에 링크한다면 a 태그를 클릭했을 때 home.html로 이동된다.
 
+~~~html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>💖 Hello World!</h1>
+    <p>Welcome to your Electron application.</p>
+
+    <p>이 페이지는 index.html 입니다.</p>
+
+    <a href="home.html">home.html로 가기</a>
+  </body>
+</html>
+~~~
+
 ![routing](https://imgur.com/22jtsIQ.gif)
 
 ## 패키징하기
