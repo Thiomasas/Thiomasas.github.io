@@ -48,4 +48,5 @@ nodejs:
 etc: 
   - title: "Inno Setup"
     children: 
-      - title: "/etc/make-installer-with-inno-setup/"
+      - title: "Inno Setup으로 설치 프로그램 만들기"
+        url: "/etc/make-installer-with-inno-setup/"
