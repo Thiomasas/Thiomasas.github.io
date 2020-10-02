@@ -4,3 +4,48 @@ main:
     url: "/tags/"
   - title: "카테고리 목록"
     url: "/categories/"
+
+flutter: 
+  - title: "기타"
+    children: 
+      - title: "Flutter에서 HTTP 요청하기"
+        url: "/flutter/flutter-http-requests/"
+
+dotnet: 
+  - title: "Discord 봇 제작하기"
+    children: 
+      - title: "C#으로 디스코드 봇 제작하기 - 기초"
+        url: "/.net/csharp-discord-bot-basic/"
+      - title: "C#으로 디스코드 봇 제작하기 - 명령어 처리 모듈"
+        url: "/.net/csharp-discord-bot-command-modules/"
+      - title: "C#으로 디스코드 봇 제작하기 - 뮤직봇 기능 추가"
+        url: "/.net/csharp-discord-bot-music/"
+  - title: "기타"
+    children: 
+      - title: "C#에서 암호화 사용하기"
+        url: "/.net/csharp-encryption/"
+      - title: ".NET 프레임워크 프로젝트에서 .NET 코어 프로젝트로 전환하기"
+        url: "/.net/dotnet-framework-to-dotnet-core/"
+
+nodejs:
+  - title: "Express 시작하기"
+    children:
+      - title: "Express로 Node.js 서버 구축하기 - 기초"
+        url: "/node.js/nodejs-express-server-basic/"
+      - title: "Express로 Node.js 서버 구축하기 - 라우팅"
+        url: "/node.js/nodejs-express-server-routing/"
+      - title: "Express로 Node.js 서버 구축하기 - 메소드와 바디 활용하기"
+        url: "/node.js/node.js-express-server-methods-and-handling-body/"
+  - title: "Electron"
+    children:
+      - title: "Electron으로 Node.js 데스크탑 앱 제작하기"
+        url: "/node.js/nodejs-electron-app/"
+  - title: "기타"
+    children:
+      - title: "pm2로 Node.js 서버 관리하기"
+        url: "/node.js/pm2-nodejs-management/"
+
+etc: 
+  - title: "Inno Setup"
+    children: 
+      - title: "/etc/make-installer-with-inno-setup/"

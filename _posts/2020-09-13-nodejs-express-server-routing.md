@@ -4,6 +4,8 @@ layout: single
 title: "Express로 Node.js 서버 구축하기 - 라우팅"
 classes: wide
 category: Node.js
+sidebar:
+    nav: "nodejs" 
 tags: 
   - node.js
   - express

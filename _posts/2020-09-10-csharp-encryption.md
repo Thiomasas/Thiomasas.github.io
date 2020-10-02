@@ -4,6 +4,8 @@ layout: single
 title: "C#에서 암호화 사용하기"
 classes: wide
 category: .NET
+sidebar:
+    nav: "dotnet" 
 tags: 
   - .net
   - 암호화

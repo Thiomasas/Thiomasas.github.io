@@ -4,6 +4,8 @@ layout: single
 title: "pm2로 Node.js 서버 관리하기"
 classes: wide
 category: Node.js
+sidebar:
+    nav: "nodejs" 
 tags: 
   - node.js
   - pm2

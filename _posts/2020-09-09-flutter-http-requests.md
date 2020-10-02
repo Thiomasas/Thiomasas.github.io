@@ -4,6 +4,8 @@ layout: single
 title: "Flutter에서 HTTP 요청하기"
 classes: wide
 category: Flutter 
+sidebar:
+    nav: "flutter" 
 tags: 
   - flutter
   - http

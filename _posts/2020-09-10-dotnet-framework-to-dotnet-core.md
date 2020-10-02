@@ -4,6 +4,8 @@ layout: single
 title: ".NET 프레임워크 프로젝트에서 .NET 코어 프로젝트로 전환하기"
 classes: wide
 category: .NET
+sidebar:
+    nav: "dotnet" 
 tags: 
   - .net
 ---

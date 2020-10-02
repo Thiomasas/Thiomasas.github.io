@@ -4,6 +4,8 @@ layout: single
 title: "Electron으로 Node.js 데스크탑 앱 제작하기"
 classes: wide
 category: Node.js
+sidebar:
+    nav: "nodejs" 
 tags: 
   - node.js
   - electron 

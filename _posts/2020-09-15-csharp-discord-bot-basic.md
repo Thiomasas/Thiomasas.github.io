@@ -4,6 +4,8 @@ layout: single
 title: "C#으로 디스코드 봇 제작하기 - 기초"
 classes: wide
 category: .NET
+sidebar:
+    nav: "dotnet" 
 tags: 
   - .net
   - discord
