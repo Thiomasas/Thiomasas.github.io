@@ -36,6 +36,10 @@ nodejs:
         url: "/node.js/nodejs-express-server-routing/"
       - title: "Express로 Node.js 서버 구축하기 - 메소드와 바디 활용하기"
         url: "/node.js/node.js-express-server-methods-and-handling-body/"
+  - title: "Socket.IO 사용하기"
+    children:
+      - title: "Node.js 서버에서 Socket.IO로 실시간 통신하기 - 기초"
+        url: "/node.js/nodejs-socketio-communication-basic/"
   - title: "Electron"
     children:
       - title: "Electron으로 Node.js 데스크탑 앱 제작하기"
@@ -46,7 +50,7 @@ nodejs:
         url: "/node.js/pm2-nodejs-management/"
 
 etc: 
-  - title: "Inno Setup"
+  - title: "패키징"
     children: 
       - title: "Inno Setup으로 설치 프로그램 만들기"
         url: "/etc/make-installer-with-inno-setup/"
