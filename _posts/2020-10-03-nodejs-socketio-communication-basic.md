@@ -8,7 +8,7 @@ sidebar:
     nav: "nodejs" 
 tags: 
   - node.js
-  - electron 
+  - socket.io
 ---
 
 Node.js로 사용자와 HTTP로 통신하는 것은 Express나 내장된 http 모듈로 해본 적이 있을 것이다. 하지만 채팅같은 실시간으로 데이터를 주고받아야 하는 서비스는 어떻게 구현해야 할 것인지 막막할 때가 있다. 그래서 이번 포스팅에서는 서버와 클라이언트가 실시간 통신을 할 수 있는 Socket.IO 라이브러리에 대해 알아볼 것이다.
