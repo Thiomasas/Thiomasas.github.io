@@ -40,7 +40,6 @@ nodejs:
     children:
       - title: "Node.js 서버에서 Socket.IO로 실시간 통신하기 - 기초"
         url: "/node.js/nodejs-socketio-communication-basic/"
-    children:
       - title: "Node.js 서버에서 Socket.IO로 실시간 통신하기 - 룸과 네임스페이스"
         url: "/node.js/nodejs-socketio-communication-room-and-namespace/"
   - title: "Electron"
