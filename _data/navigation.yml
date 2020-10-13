@@ -50,6 +50,8 @@ nodejs:
     children:
       - title: "Node.js 유용한 라이브러리 - uuid"
         url: "/node.js/nodejs-library-uuid/"
+      - title: "Node.js 유용한 라이브러리 - Moment.js"
+        url: "/node.js/nodejs-library-moment/"
   - title: "기타"
     children:
       - title: "pm2로 Node.js 서버 관리하기"
