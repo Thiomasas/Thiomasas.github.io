@@ -2,6 +2,7 @@
 published: true
 layout: single
 title: "Node.js 유용한 라이브러리 - uuid"
+classes: wide
 category: Node.js
 sidebar:
     nav: "nodejs" 
