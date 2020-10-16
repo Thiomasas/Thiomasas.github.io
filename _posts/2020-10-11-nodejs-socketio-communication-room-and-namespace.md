@@ -2,6 +2,7 @@
 published: true
 layout: single
 title: "Node.js 서버에서 Socket.IO로 실시간 통신하기 - 룸과 네임스페이스"
+classes: wide   
 category: Node.js
 sidebar:
     nav: "nodejs" 
