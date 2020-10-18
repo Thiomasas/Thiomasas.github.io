@@ -20,6 +20,10 @@ dotnet:
         url: "/.net/csharp-discord-bot-command-modules/"
       - title: "C#으로 디스코드 봇 제작하기 - 뮤직봇 기능 추가"
         url: "/.net/csharp-discord-bot-music/"
+  - title: "C# 유용한 라이브러리"
+    children:
+      - title: "C# 유용한 라이브러리 - Json.NET"
+        url: "/.net/csharp-library-json.net/"
   - title: "기타"
     children: 
       - title: "C#에서 암호화 사용하기"
@@ -46,7 +50,7 @@ nodejs:
     children:
       - title: "Electron으로 Node.js 데스크탑 앱 제작하기"
         url: "/node.js/nodejs-electron-app/"
-  - title: "유용한 라이브러리"
+  - title: "Node.js 유용한 라이브러리"
     children:
       - title: "Node.js 유용한 라이브러리 - uuid"
         url: "/node.js/nodejs-library-uuid/"
