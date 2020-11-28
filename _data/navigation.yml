@@ -66,3 +66,7 @@ etc:
     children: 
       - title: "Inno Setup으로 설치 프로그램 만들기"
         url: "/etc/make-installer-with-inno-setup/"
+  - title: "알아두면 좋은 문법들"
+    children:
+      - title: "정규표현식 문법 정리"
+        url: "/etc/regular-expression/"
