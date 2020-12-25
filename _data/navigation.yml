@@ -66,6 +66,8 @@ java:
     children:
       - title: "마인크래프트 플러그인 만들기 - 시작"
         url: "/java/java-minecraft-plugin-start/"
+      - title: "마인크래프트 플러그인 만들기 - 명령어 등록"
+        url: "/java/java-minecraft-plugin-command/"
 
 etc: 
   - title: "패키징"
