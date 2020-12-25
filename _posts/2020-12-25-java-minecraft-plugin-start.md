@@ -11,9 +11,9 @@ tags:
   - minecraft
 ---
 
-![솔크](https://steamuserimages-a.akamaihd.net/ugc/948469551049176371/68310660388C2974738D6F07F2EC81037CE7B06E/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
-
 드디어 중요한 일들이 거의 다 끝나고 연말이 다가왔다. 하지만 슬프게도 솔로인 채로 크리스마스를 지내야 하는 사실은 변함이 없었다. 게다가 코로나도 겹쳐 밖에 나가 놀지도 못해 더 슬퍼진다. 그런 슬픔을 달래고자 갓갓 띵작 마인크래프트에서 놀기 위해 서버 플러그인을 만들어보기로 했다.
+
+![솔크](https://steamuserimages-a.akamaihd.net/ugc/948469551049176371/68310660388C2974738D6F07F2EC81037CE7B06E/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
 
 ## 미리 알아둬야 할 것
 
