@@ -61,6 +61,12 @@ nodejs:
       - title: "pm2로 Node.js 서버 관리하기"
         url: "/node.js/pm2-nodejs-management/"
 
+java:
+  - title: "마인크래프트 플러그인 만들기"
+    children:
+      - title: "마인크래프트 플러그인 만들기 - 시작"
+        url: "/java/java-minecraft-plugin-start/"
+
 etc: 
   - title: "패키징"
     children: 
