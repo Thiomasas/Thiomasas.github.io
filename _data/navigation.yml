@@ -70,6 +70,8 @@ java:
         url: "/java/java-minecraft-plugin-command/"
       - title: "마인크래프트 플러그인 만들기 - 산탄 화살 명령어"
         url: "/java/java-minecraft-plugin-shotgun/"
+      - title: "마인크래프트 플러그인 만들기 - 관통 화살"
+        url: "/java/java-minecraft-plugin-piercing-shot/"
 
 etc: 
   - title: "패키징"

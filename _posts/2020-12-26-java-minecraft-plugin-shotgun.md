@@ -17,6 +17,8 @@ tags:
 
 이번 포스트에서는 이 기술과 비슷하게 구현을 해볼 예정이다.
 
+이어지는 포스트입니다. 처음부터 따라하면서 읽으시려면 [여기](https://fred16157.github.io/java/java-minecraft-plugin-start/) 부터 읽어주세요.
+
 ## plugin.yml 수정하기
 
 ~~~diff
