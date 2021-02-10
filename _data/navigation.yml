@@ -84,3 +84,7 @@ etc:
     children:
       - title: "정규표현식 문법 정리"
         url: "/etc/regular-expression/"
+  - title: "서버 관리"
+    children:
+      - title: "Nginx로 Reverse Proxy 설정하기"
+        url: "/etc/nginx-reverse-proxy/"
