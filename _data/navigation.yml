@@ -61,7 +61,7 @@ nodejs:
       - title: "pm2로 Node.js 서버 관리하기"
         url: "/node.js/pm2-nodejs-management/"
       - title: "리눅스에서 systemd로 Node.js 프로젝트를 서비스로 등록하기"
-        url: "/node.js/linux-add-systemd-service"
+        url: "/node.js/nodejs-linux-add-systemd-service"
 
 java:
   - title: "마인크래프트 플러그인 만들기"
