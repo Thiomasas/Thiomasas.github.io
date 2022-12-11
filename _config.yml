@@ -93,10 +93,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "토마스(Thiomasas)"
+  name             : "Thiomasas"
   avatar           : "/assets/images/logo.png"
-  bio              : "13살이지만 큰꿈을 가지고 있는 아이."
-  location         : "한국"
+  bio              : "Simply, A Java, Kotlin Programmer and A Hamster Lover"
+  location         : "경기도 / 한국"
   email            : "yunthomas0120@gmail.com"
   links:
     - label: "Email"
@@ -113,7 +113,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/fred16157"
+      url: "https://github.com/Thiomasas"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
