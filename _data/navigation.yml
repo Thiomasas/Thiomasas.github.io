@@ -63,18 +63,18 @@ nodejs:
       - title: "리눅스에서 systemd로 Node.js 프로젝트를 서비스로 등록하기"
         url: "/node.js/nodejs-linux-add-systemd-service"
 
-java:
-  - title: "마인크래프트 플러그인 만들기"
+skript:
+  - title: "마인크래프트 스크립트 개발하기"
     children:
-      - title: "마인크래프트 플러그인 만들기 - 시작"
+      - title: "마인크래프트 스크립트 개발 - 시작 및 튜토리얼"
         url: "/java/java-minecraft-plugin-start/"
-      - title: "마인크래프트 플러그인 만들기 - 명령어 등록"
+      - title: "마인크래프트 플러그인 만들기 - 스크립트의 매커니즘"
         url: "/java/java-minecraft-plugin-command/"
-      - title: "마인크래프트 플러그인 만들기 - 산탄 화살 명령어"
+      - title: "마인크래프트 플러그인 만들기 - 커맨드 만들기"
         url: "/java/java-minecraft-plugin-shotgun/"
-      - title: "마인크래프트 플러그인 만들기 - 관통 화살"
+      - title: "마인크래프트 플러그인 만들기 - 커맨드 응용"
         url: "/java/java-minecraft-plugin-piercing-shot/"
-      - title: "마인크래프트 플러그인 만들기 - 커스텀 인벤토리"
+      - title: "마인크래프트 플러그인 만들기 - 커맨드로 할 수 있는 것들"
         url: "/java/java-minecraft-plugin-custom-inventory/"
 
 etc: 
