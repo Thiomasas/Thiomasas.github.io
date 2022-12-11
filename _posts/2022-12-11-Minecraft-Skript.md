@@ -3,11 +3,11 @@ published: true
 layout: single
 title: "마인크래프트 스크립트 개발 - 시작 및 튜토리얼"
 classes: wide
-category: Java
+category: Skript
 sidebar:
     nav: "skript" 
 tags: 
-  - java
+  - skript
   - minecraft
 ---
 
