@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "메모장"
+title                    : "토마스의 깃헙 블로그"
 title_separator          : "-"
 subtitle                 : ""
-name                     : "강현구"
+name                     : "Thiomasas"
 description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "fred16157/fred16157.github.io"
+repository               : "Thiomasas/Thiomasas.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "utterances"
   disqus:
-    shortname            : "fred16157-github-io"
+    shortname            : "Thiomasas-github-io"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -93,11 +93,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "강현구"
+  name             : "토마스(Thiomasas)"
   avatar           : "/assets/images/logo.png"
-  bio              : "사실 메모장 별로 안쓰는 사람"
+  bio              : "13살이지만 큰꿈을 가지고 있는 아이."
   location         : "한국"
-  email            : "fred16157@gmail.com"
+  email            : "yunthomas0120@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
