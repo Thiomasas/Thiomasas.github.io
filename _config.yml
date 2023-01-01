@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "토마스의 깃헙 블로그"
+title                    : "토마스의 웹사이트"
 title_separator          : "-"
 subtitle                 : ""
 name                     : "Thiomasas"
