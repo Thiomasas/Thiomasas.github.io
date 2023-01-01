@@ -8,7 +8,6 @@ sidebar:
     nav: "skript" 
 tags: 
   - skript
-  - minecraft
 ---
 
 ## 스크립트를 시작해보자
