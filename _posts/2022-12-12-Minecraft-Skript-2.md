@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title: "마인크래프트 스크립트 개발 - 스크립트 매커니즘"
+title: ""
 classes: wide
 category: Skript
 sidebar:
