@@ -10,6 +10,8 @@ tags:
   - skript
 ---
 
+## 시작하며..
+
 드디어 중요한 일들이 거의 다 끝나고 연말이 다가왔다. 맞다. 우리는 추운 겨울 집안에서 귤을 맛있게 먹으며 놀 것이 필요하다. 우리들의 게임하면 무엇이 떠오르는 가. 바로 마인크래프트이다. 그래서 마인크래프트 서버를 열어 친구들과 놀기 위해 스크립트를 배워 스크립트를 만들어 보고자 한다.
 
 ![코딩](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkQGMJ2O19q-fq4kI7U56TYJRDT9TSXnbl5w&usqp=CAU)
