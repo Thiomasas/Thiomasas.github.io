@@ -74,7 +74,7 @@ command /test.command:
 
 # /test.command 라는 커맨드를 등록하고, 실핼했을 때
 command /test.command:
-    # 커맨드 실행 분기점
+    # 커맨드 실행 트리거
     trigger:
         # "Welcome to world of Skript" 라는 메세지를 플레이어에게 보낸다.
         send "Welcome to world of Skript" to player
